@@ -1,7 +1,7 @@
 import { Box, Container, Grid, Typography, styled } from "@mui/material";
 import ProjectCard from "../../../../components/ProjectCard/ProjectCard";
 import type { ProjectCardProps } from "../../../../components/ProjectCard/ProjectCard";
-
+import AnimationComponent from "../../../../components/AnimationComponent/AnimationComponent";
 
 const Projects: React.FC = () => {
 
@@ -57,6 +57,7 @@ const projects = [
                 <Grid container spacing={5} pb={3}>
                     {projects.map((project: ProjectCardProps, index: number) => (
                         <Grid item md={6} key={index}>
+                            <AnimationComponent moveDirection={index % 2 == 0 ? "right" : "left"}>
                                 <ProjectCard
                                     title={project.title}
                                     subtitle={project.subtitle}
@@ -66,6 +67,7 @@ const projects = [
                                     websiteURL={project.websiteURL}
                                     codeURL={project.codeURL}
                                 />
+                            </AnimationComponent>
                         </Grid>
                     ))}
                 </Grid>

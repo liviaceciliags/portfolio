@@ -1,6 +1,7 @@
 import { Box, Card, Container, Grid, Typography, styled } from "@mui/material"
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 import SchoolIcon from '@mui/icons-material/School';
+import AnimationComponent from "../../../../components/AnimationComponent/AnimationComponent";
 
 const About: React.FC = () => {
 
@@ -21,21 +22,25 @@ const About: React.FC = () => {
                 </Box>
                 <Grid container spacing={2} display="flex" justifyContent="center" pb={3}>
                     <Grid item xs={9} md={2.5}>
-                        <StyledCard variant="outlined">
-                            <WorkspacePremiumIcon />
-                            <Typography textAlign="center" fontWeight={600}>Curso Técnico</Typography>
-                            <Typography textAlign="center">Técnico em Informática Integrado ao Ensino Médio</Typography>
-                            <Typography textAlign="center">Instituto Federal</Typography>
-                        </StyledCard>
+                        <AnimationComponent moveDirection="right">
+                            <StyledCard variant="outlined">
+                                <WorkspacePremiumIcon />
+                                <Typography textAlign="center" fontWeight={600}>Curso Técnico</Typography>
+                                <Typography textAlign="center">Técnico em Informática Integrado ao Ensino Médio</Typography>
+                                <Typography textAlign="center">Instituto Federal</Typography>
+                            </StyledCard>
+                        </AnimationComponent>
                     </Grid>
                     <Grid item xs={9} md={2.5}>
-                        <StyledCard variant="outlined">
-                            <SchoolIcon />
-                            <Typography textAlign="center" fontWeight={600}>Graduação</Typography>
-                            <Typography textAlign="center">Engenharia de Computação</Typography>
-                            <Typography textAlign="center">Inatel</Typography>
-                            <Typography textAlign="center">7º Período</Typography>
-                        </StyledCard>
+                        <AnimationComponent moveDirection="left">
+                            <StyledCard variant="outlined">
+                                <SchoolIcon />
+                                <Typography textAlign="center" fontWeight={600}>Graduação</Typography>
+                                <Typography textAlign="center">Engenharia de Computação</Typography>
+                                <Typography textAlign="center">Inatel</Typography>
+                                <Typography textAlign="center">7º Período</Typography>
+                            </StyledCard>
+                        </AnimationComponent>
                     </Grid>
                 </Grid>
                 <Box pb={1}>
