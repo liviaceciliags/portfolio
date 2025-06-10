@@ -27,7 +27,7 @@ const experiences = [
     {
         company: "CNPq",
         role: "Bolsista de Iniciação Científica",
-        period: "Mar/2023 - Set/2024",
+        period: "Out/2023 - Set/2024",
         description: "Atuei como líder do time de CubeSat, desenvolvendo soluções embarcadas para automação agrícola e monitoramento ambiental, com integração de sensores, comunicação LoRa, inteligência artificial embarcada e análise de dados.",
     },
     {

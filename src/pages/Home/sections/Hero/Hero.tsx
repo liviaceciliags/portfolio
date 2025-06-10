@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
     width: "80%",
     borderRadius: "50%",
     position: "relative",
-    border: "8px solid #D64045"
+    border: "5px solid #D64045"
     }));
 
     const handleDownload = () => {
@@ -65,7 +65,7 @@ const Hero: React.FC = () => {
             <Typography color="theme.palette.secondary.main" variant="h1" textAlign="center" pb={2}>
               Lívia Cecília
             </Typography>
-            <Typewriter text="Inatel | Engenharia de Computação | CubeSat Design Team | xGMobile" delay={120} variant="h3" color="#333333"/>
+            <Typewriter text="Inatel | Engenharia de Computação | CubeSat Design Team | xGMobile" delay={110} variant="h3" color="#333333"/>
             <Box mt={3}>
             <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
               <Grid item xs={10} md={4} display="flex" justifyContent="center">

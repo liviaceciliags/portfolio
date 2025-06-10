@@ -10,8 +10,17 @@ const About: React.FC = () => {
         textAlign: "center",
         marginBottom: "10px",
         '&:hover': {
-            backgroundColor: theme.palette.secondary.light
+            backgroundColor: theme.palette.secondary.main,
         }
+    }));
+
+    const StyledVideo = styled("video")(({ theme }) => ({
+        alignContent: "center",
+        width: "60%",
+        position: "relative",
+        border: theme.palette.secondary.main,
+        objectFit: "cover",  // Garante que o vídeo ocupe toda a área disponível da moldura
+        boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)", // Opcional, para dar um efeito de sombra
     }));
 
     return (
@@ -55,6 +64,22 @@ const About: React.FC = () => {
                         robótica, modelagem, desenvolvimento de APIs, instrumentação e integração hardware/software, sempre com 
                         resiliência e curiosidade para aplicar a engenharia na transformação de realidades.
                     </Typography>
+                </Box>
+                <Box pb={2}>
+                    <Typography align="center">Participação no Globo Repórter (programa de 05/10/2024)</Typography>
+                </Box>
+                <Box pb={2}>
+                    <Grid item xs={9} md={2.5}>
+                        <Grid container spacing={2} justifyContent="center">
+                            <StyledVideo controls>
+                                <source src="src/assets/videos/video.mp4" type="video/mp4" />
+                                Seu navegador não suporta o elemento de vídeo.
+                            </StyledVideo>
+                        </Grid>
+                    </Grid>
+                </Box>
+                <Box pb={2}>
+                    <Typography align="center">"Inovações, desenvolvidas por brasileiros, parecem ter saído do futuro e já impactam a nossa vida! Estão na saúde, no transporte e até no espaço."</Typography>
                 </Box>
             </Container>
         </>

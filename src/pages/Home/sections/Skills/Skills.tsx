@@ -11,29 +11,25 @@ const Skills: React.FC = () => {
             color: theme.palette.primary.contrastText,
         }
     }));
-
+    
     const StyledExperience = styled("div")(({ theme }) => ({
         backgroundColor: theme.palette.primary.main,
     }));
 
 const skillsSet = [
     // Linguagens de Programação
-    "Python", "C++", "C", "Java", "JavaScript", "HTML", "CSS",
-    
+    "Python", "C++", "C", "Java", "JavaScript", "HTML", "CSS",   
     // Frameworks e Bibliotecas
     "React", "Flask", "TensorFlow", "YOLOv8", "MQTT",
-    
     // Banco de Dados
     "MySQL",
-    
     // Hardware e IoT
     "ESP32", "Arduino", "Raspberry Pi", "LoRa",
-    
     // Ferramentas e Plataformas
-    "Google Colab", "PlatformIO", "GEE", "Git", "Postman", "Cypress",
+    "Roboflow", "PlatformIO", "GEE", "Git", "Postman", "Cypress",
     
     // Design e CAD
-    "Altium", "FreeCAD", "KiCad",
+    "Altium", "FreeCAD", "EasyEDA",
     
     // Estatística e Análise de Dados
     "BioEstat", "Excel"
