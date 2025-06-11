@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
             description: "Desenvolvimento de sistemas embarcados para CubeSats focados em monitoramento ambiental. Integração de sensores ambientais (DHT22, GPS, gás, LDR) com microcontrolador Arduino para módulos sensoriais e ESP32 para o CubeSat, comunicação via LoRa e análise de dados com Python. Projeto premiado na 2ª edição da Olimpíada Brasileira de Satélites (OBSAT - MCTI).",
             technologies: "Tecnologias: ESP32, Arduino, LoRa, C++, Python, PlatformIO, EasyEDA, Visual Studio Code",
             websiteURL: "https://youtu.be/43qg72X6xF0?si=DCIbM6Z_jyxW--Wf",
-            codeURL: "#",
+            codeURL: "https://drive.google.com/drive/folders/1qEbkhjotKO7vtbqmOhWA0ZjVFDldj8lf?usp=drive_link",
         },
         {
             title: "Projeto GeoScanSat",
@@ -44,7 +44,7 @@ const Projects: React.FC = () => {
             srcImg: "public/assets/images/project-mechberry.jpg",
             description: "Robô autônomo para colheita de morangos, premiado na FETIN 2024. Implementação de IA embarcada com YOLO para detecção de frutas, comunicação LoRa e app de controle em Java. Controle de irrigação automática e iluminação inteligente para agricultura de precisão.",
             technologies: "Tecnologias: ESP8266, Arduino Nano, LoRa, YOLO, Python, Java, MQTT, MySQL, FreeCAD, Android Studio",
-            websiteURL: "#",
+            websiteURL: "https://drive.google.com/drive/folders/1qEbkhjotKO7vtbqmOhWA0ZjVFDldj8lf?usp=drive_link",
             codeURL: "https://github.com/MechBerry",
         },
         {
@@ -53,8 +53,8 @@ const Projects: React.FC = () => {
             srcImg: "public/assets/images/project-goldfever.png",
             description: "Solução para monitoramento de garimpo ilegal utilizando UAVs com IA embarcada. Desenvolvimento de infraestrutura IoT com sensores ambientais, comunicação via CubeSat e processamento de imagens com YOLO e RT-DETR. Visualização de dados via interface web.",
             technologies: "Tecnologias: UAVs, LoRa, CubeSat, Python, YOLOv8, RT-DETR, Roboflow, Google Earth Engine, Flask, MySQL, HTML, CSS",
-            websiteURL: "#",
-            codeURL: "#",
+            websiteURL: "https://drive.google.com/drive/folders/1qEbkhjotKO7vtbqmOhWA0ZjVFDldj8lf?usp=drive_link",
+            codeURL: "https://drive.google.com/drive/folders/1qEbkhjotKO7vtbqmOhWA0ZjVFDldj8lf?usp=drive_link",
         },
     ]
     return (
