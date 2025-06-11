@@ -5,6 +5,7 @@ import Hero from "./pages/Home/sections/Hero/Hero"
 import Projects from "./pages/Home/sections/Projects/Projects"
 import Experience from "./pages/Home/sections/Experience/Experience"
 import Skills from "./pages/Home/sections/Skills/Skills"
+import Pillar from "./pages/Home/sections/Pillar/Pillar"
 //import Projects from "./pages/Home/sections/Projects/Projects"
 
 const App: React.FC = () => { //mais fácil de usar o typeScript com arrow function
@@ -14,9 +15,10 @@ const App: React.FC = () => { //mais fácil de usar o typeScript com arrow funct
       <Navbar/>
       <Hero />
       <About/>
-      <Skills/>
       <Experience/>
+      <Skills/>
       <Projects />
+      <Pillar/>
       <Footer/>
     </>
   )

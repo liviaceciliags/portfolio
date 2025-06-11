@@ -78,31 +78,37 @@ export default function Navbar() {
                         onClose={handleClose}
                     >
                         <MenuItem onClick={() => handleSmoothScroll("about")}>
-                            <StyledNavLink>Sobre mim</StyledNavLink>
-                        </MenuItem>
-                        <MenuItem onClick={() => handleSmoothScroll("skills")}>
-                            <StyledNavLink>Skills</StyledNavLink>
+                            <StyledNavLink>Sobre Mim</StyledNavLink>
                         </MenuItem>
                         <MenuItem onClick={() => handleSmoothScroll("experience")}>
                             <StyledNavLink>Experiências</StyledNavLink>
                         </MenuItem>
+                        <MenuItem onClick={() => handleSmoothScroll("skills")}>
+                            <StyledNavLink>Skills</StyledNavLink>
+                        </MenuItem>
                         <MenuItem onClick={() => handleSmoothScroll("projects")}>
                             <StyledNavLink>Projetos</StyledNavLink>
+                        </MenuItem>
+                        <MenuItem onClick={() => handleSmoothScroll("projects")}>
+                            <StyledNavLink>Pilar Cultural</StyledNavLink>
                         </MenuItem>
                     </Menu>
                 </StyledMobileToolbar>
                 <StyledDesktopToolbar variant="regular">
                     <MenuItem onClick={() => handleSmoothScroll("about")}>
-                        <StyledNavLink>Sobre mim</StyledNavLink>
-                    </MenuItem>
-                    <MenuItem onClick={() => handleSmoothScroll("skills")}>
-                        <StyledNavLink>Skills</StyledNavLink>
+                        <StyledNavLink>Sobre Mim</StyledNavLink>
                     </MenuItem>
                     <MenuItem onClick={() => handleSmoothScroll("experience")}>
                         <StyledNavLink>Experiências</StyledNavLink>
                     </MenuItem>
+                    <MenuItem onClick={() => handleSmoothScroll("skills")}>
+                        <StyledNavLink>Skills</StyledNavLink>
+                    </MenuItem>
                     <MenuItem onClick={() => handleSmoothScroll("projects")}>
                         <StyledNavLink>Projetos</StyledNavLink>
+                    </MenuItem>
+                    <MenuItem onClick={() => handleSmoothScroll("pillar")}>
+                        <StyledNavLink>Pilar Cultural</StyledNavLink>
                     </MenuItem>
                 </StyledDesktopToolbar>
             </AppBar>
