@@ -84,7 +84,7 @@ const Projects: React.FC = () => {
                     <Typography align="center" color="primary.contrastText">Participação no Globo Repórter (programa de 05/10/2024)</Typography>
                 </Box>
                 <Box pb={2}>
-                    <Grid item xs={9} md={2.5}>
+                    <Grid item xs={9} md={6}>
                         <Grid container spacing={2} justifyContent="center">
                             <StyledVideo controls>
                                 <source src="src/assets/videos/video.mp4" type="video/mp4" />
